@@ -14,9 +14,18 @@ function mayuscula(v){
 
     return v;
 }
+function pegar(x) {
+    return x.join('');
+}
+
 
 mayuscula(vector1)
 mayuscula(vector2)
 mayuscula(vector3)
+
+console.log(pegar(vector1) + " " + pegar(vector2) + " " + pegar(vector3))
+
+
+
 
 
